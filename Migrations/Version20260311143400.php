@@ -5,6 +5,9 @@ namespace SimpleAccountingBundle\Migrations;
 use App\Doctrine\AbstractMigration;
 use Doctrine\DBAL\Schema\Schema;
 
+/**
+ * @version 1.1
+ */
 final class Version20260311143400 extends AbstractMigration
 {
     public function getDescription(): string
